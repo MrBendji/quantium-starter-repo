@@ -13,7 +13,7 @@ app.layout = html.Div(
         html.H1('Sales Visualization'),
         dcc.Graph(
             id='sales-chart',
-            figure=px.line(filtered_data, x='date', y='Sales', title='Sales Data')
+            figure=px.line(filtered_data, x='Date', y='Sales', title='Sales Data')
         )
     ]
 )
